@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display";
+}
+ 
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#main{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+#page-1{
+    position: relative;
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: #000;
+}
+#page-1>h1{
+    position: relative;
+    color: white;
+}
+
+#nav{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 82vw;
+    z-index: 99;
+}
+
+#nav-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 2vw;
+    opacity: 0.7;
+}
+
+#nav-1>a{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.girl{
+    height: 900px;
+    object-fit:cover ;
+}
+.visionpro{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.visionpro>img{
+    width: 300px;
+}
+.visionpro>h1{
+    text-align: center;
+    opacity: 0.6;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+#nav-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 12px 2vw;
+}
+#nav-2>h2{
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.nav2-btn{
+    color: black;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+
+.page{
+    position: relative;
+    width: 100%;
+}
+#page-2{
+    height: 100vh;
+}
+#page-3{
+    height: 100vh;
+}
+#page-4{
+    height: 100vh;
+}
+.page>h1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+
+.page>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page-5{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+    background-color: black;
+    width: 100%;
+    /* min-height: 150vh; */
+}
+
+#p5-header-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+}
+#p5-header-1 h1{
+    font-size: 16px;
+    color: #ff7326;
+}
+#p5-header-1 h1:hover{
+    text-decoration: underline;
+    color: #ff7326;
+}
+#p5-header-1 i{
+    color: #ff7326;
+    font-size: 25px;
+}
+.p5-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+    ;
+}
+#p5-header-2{
+    padding-top: 15px;
+    opacity: 0.6;
+}
+#p5-img>img{
+    /* width: 1000px; */
+    width: 70vw;
+    padding: 50px 0;
+}
+#p5-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px black solid;
+    background-color: #fff;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+    transition: all ease 0.3s;
+}
+#p5-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px black solid;
+    background-color: #fff;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+    transition: all ease 0.3s;
+}
+#p5-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px black solid;
+    background-color: #fff;
+    padding: 16px 24px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+    transition: all ease 0.3s;
+}
+#p5-btn i{
+    color: #000;
+}
+
+#p5-btn:hover{
+    color: #fff;
+    background-color: #000;
+}
+#p5-btn:hover i{
+    color: #fff;
+}
+
+/* Page 6 Starts Here */
+#page-6{
+    background-color: #f5f5f7;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+#page-6 h1{
+    font-size: 5.5vw;
+    padding-bottom: 30px;
+}
+
+#p6-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+#p6-para h3{
+    opacity: 0.5;
+    text-align: center;
+}
+
+/* Page 7 Starts Here */
+
+#page-7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page-7>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 99;
+}
+
+#page-8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page-8>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page8>h1>span{
+    color: #000;
+}
+#page-9{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page-9>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page-9>h1>span{
+    color: #000;
+}
+#page-10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+
+}
+#page-10>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page-10>h1>span{
+    color: #000;
+}
+#page-11{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page-11>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page-11>h1>span{
+    color: #000;
+}
+#page-12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+
+}
+#page-12>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page-12>h1>span{
+    color: #000;
+}
+#page-13{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page-13>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page-13>h1>span{
+    color: #000;
+}
+
+@media (width<=900px){
+
+    #nav{
+        width: 100vw;
+        padding:20px;
+    }
+    #nav-1{
+        display: none;
+    }
+    #nav-2{
+        padding-top: 20px;
+    }
+    .page>h1{
+        font-size: 26px;
+        white-space: normal;
+        text-align: center;
+    }
+    #vision-logo img{
+        width: 250px;
+    }
+    /* #page-5{
+        height: 65vh;
+    } */
+    #p5-header-1{
+        gap:15px
+    }
+
+    #p5-header-2 h2{
+        font-size: 16px;
+    }
+    #p5-btn{
+        font-size: 15px;
+    }
+    #p6-para h3{
+        font-size: 12px;
+    }
+
+
+    #page-8>h1{
+        font-size: 3vw;
+    }
+    #page-9>h1{
+        font-size: 3vw;
+    }
+    #page-10>h1{
+        font-size: 3vw;
+    }
+    #page-11>h1{
+        font-size: 3vw;
+    }
+    #page-12>h1{
+        font-size: 3vw;
+    }
+    #page-13>h1{
+        font-size: 3vw;
+    }
+}
